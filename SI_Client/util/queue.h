@@ -3,7 +3,7 @@
 
 #include "../engine/network.h"
 
-#define MAX_QUEUE_SIZE 1000
+#define MAX_QUEUE_SIZE 4000
 
 typedef struct Queue {
     void *queue_array[MAX_QUEUE_SIZE];

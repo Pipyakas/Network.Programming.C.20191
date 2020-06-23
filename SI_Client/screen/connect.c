@@ -42,7 +42,6 @@ void connect_draw(void *renderer) {
         SDL_Color current = (menu_pointer == i || current_input == i) ? red : white;
         renderer_draw_rect(&connect_bounds[i], current);
     }
-
 }
 
 void connect_event(void *event) {

@@ -20,7 +20,6 @@ void queue_push(Queue *q, void *value) {
     q->count++;
 }
 
-
 void *queue_pop(Queue *q) {
     if (q->count <= 0) {
         fprintf(stderr, "Delete attempt on empty queue!.\n");

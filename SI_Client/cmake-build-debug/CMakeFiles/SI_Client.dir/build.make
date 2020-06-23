@@ -57,9 +57,22 @@ include CMakeFiles/SI_Client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SI_Client.dir/flags.make
 
+CMakeFiles/SI_Client.dir/engine/assets.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/engine/assets.c.o: ../engine/assets.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SI_Client.dir/engine/assets.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/assets.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/assets.c
+
+CMakeFiles/SI_Client.dir/engine/assets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/engine/assets.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/assets.c > CMakeFiles/SI_Client.dir/engine/assets.c.i
+
+CMakeFiles/SI_Client.dir/engine/assets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/assets.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/assets.c -o CMakeFiles/SI_Client.dir/engine/assets.c.s
+
 CMakeFiles/SI_Client.dir/engine/engine.c.o: CMakeFiles/SI_Client.dir/flags.make
 CMakeFiles/SI_Client.dir/engine/engine.c.o: ../engine/engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SI_Client.dir/engine/engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SI_Client.dir/engine/engine.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/engine.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/engine.c
 
 CMakeFiles/SI_Client.dir/engine/engine.c.i: cmake_force
@@ -70,44 +83,31 @@ CMakeFiles/SI_Client.dir/engine/engine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/engine.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/engine.c -o CMakeFiles/SI_Client.dir/engine/engine.c.s
 
-CMakeFiles/SI_Client.dir/util/queue.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/util/queue.c.o: ../util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SI_Client.dir/util/queue.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/util/queue.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/queue.c
+CMakeFiles/SI_Client.dir/engine/network.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/engine/network.c.o: ../engine/network.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SI_Client.dir/engine/network.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/network.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/network.c
 
-CMakeFiles/SI_Client.dir/util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/util/queue.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/queue.c > CMakeFiles/SI_Client.dir/util/queue.c.i
+CMakeFiles/SI_Client.dir/engine/network.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/engine/network.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/network.c > CMakeFiles/SI_Client.dir/engine/network.c.i
 
-CMakeFiles/SI_Client.dir/util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/util/queue.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/queue.c -o CMakeFiles/SI_Client.dir/util/queue.c.s
+CMakeFiles/SI_Client.dir/engine/network.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/network.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/network.c -o CMakeFiles/SI_Client.dir/engine/network.c.s
 
-CMakeFiles/SI_Client.dir/main.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SI_Client.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/main.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/main.c
+CMakeFiles/SI_Client.dir/engine/renderer.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/engine/renderer.c.o: ../engine/renderer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SI_Client.dir/engine/renderer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/renderer.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/renderer.c
 
-CMakeFiles/SI_Client.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/main.c > CMakeFiles/SI_Client.dir/main.c.i
+CMakeFiles/SI_Client.dir/engine/renderer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/engine/renderer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/renderer.c > CMakeFiles/SI_Client.dir/engine/renderer.c.i
 
-CMakeFiles/SI_Client.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/main.c -o CMakeFiles/SI_Client.dir/main.c.s
-
-CMakeFiles/SI_Client.dir/screen/main_menu.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/screen/main_menu.c.o: ../screen/main_menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SI_Client.dir/screen/main_menu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/main_menu.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/main_menu.c
-
-CMakeFiles/SI_Client.dir/screen/main_menu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/screen/main_menu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/main_menu.c > CMakeFiles/SI_Client.dir/screen/main_menu.c.i
-
-CMakeFiles/SI_Client.dir/screen/main_menu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/main_menu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/main_menu.c -o CMakeFiles/SI_Client.dir/screen/main_menu.c.s
+CMakeFiles/SI_Client.dir/engine/renderer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/renderer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/renderer.c -o CMakeFiles/SI_Client.dir/engine/renderer.c.s
 
 CMakeFiles/SI_Client.dir/engine/screen.c.o: CMakeFiles/SI_Client.dir/flags.make
 CMakeFiles/SI_Client.dir/engine/screen.c.o: ../engine/screen.c
@@ -122,113 +122,9 @@ CMakeFiles/SI_Client.dir/engine/screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/screen.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/screen.c -o CMakeFiles/SI_Client.dir/engine/screen.c.s
 
-CMakeFiles/SI_Client.dir/util/font.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/util/font.c.o: ../util/font.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SI_Client.dir/util/font.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/util/font.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/font.c
-
-CMakeFiles/SI_Client.dir/util/font.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/util/font.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/font.c > CMakeFiles/SI_Client.dir/util/font.c.i
-
-CMakeFiles/SI_Client.dir/util/font.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/util/font.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/font.c -o CMakeFiles/SI_Client.dir/util/font.c.s
-
-CMakeFiles/SI_Client.dir/engine/assets.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/engine/assets.c.o: ../engine/assets.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SI_Client.dir/engine/assets.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/assets.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/assets.c
-
-CMakeFiles/SI_Client.dir/engine/assets.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/engine/assets.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/assets.c > CMakeFiles/SI_Client.dir/engine/assets.c.i
-
-CMakeFiles/SI_Client.dir/engine/assets.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/assets.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/assets.c -o CMakeFiles/SI_Client.dir/engine/assets.c.s
-
-CMakeFiles/SI_Client.dir/engine/renderer.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/engine/renderer.c.o: ../engine/renderer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SI_Client.dir/engine/renderer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/renderer.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/renderer.c
-
-CMakeFiles/SI_Client.dir/engine/renderer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/engine/renderer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/renderer.c > CMakeFiles/SI_Client.dir/engine/renderer.c.i
-
-CMakeFiles/SI_Client.dir/engine/renderer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/renderer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/renderer.c -o CMakeFiles/SI_Client.dir/engine/renderer.c.s
-
-CMakeFiles/SI_Client.dir/engine/network.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/engine/network.c.o: ../engine/network.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SI_Client.dir/engine/network.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/engine/network.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/network.c
-
-CMakeFiles/SI_Client.dir/engine/network.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/engine/network.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/network.c > CMakeFiles/SI_Client.dir/engine/network.c.i
-
-CMakeFiles/SI_Client.dir/engine/network.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/engine/network.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/engine/network.c -o CMakeFiles/SI_Client.dir/engine/network.c.s
-
-CMakeFiles/SI_Client.dir/screen/game.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/screen/game.c.o: ../screen/game.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SI_Client.dir/screen/game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/game.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/game.c
-
-CMakeFiles/SI_Client.dir/screen/game.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/screen/game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/game.c > CMakeFiles/SI_Client.dir/screen/game.c.i
-
-CMakeFiles/SI_Client.dir/screen/game.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/game.c -o CMakeFiles/SI_Client.dir/screen/game.c.s
-
-CMakeFiles/SI_Client.dir/util/time.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/util/time.c.o: ../util/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SI_Client.dir/util/time.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/util/time.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/time.c
-
-CMakeFiles/SI_Client.dir/util/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/util/time.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/time.c > CMakeFiles/SI_Client.dir/util/time.c.i
-
-CMakeFiles/SI_Client.dir/util/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/util/time.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/time.c -o CMakeFiles/SI_Client.dir/util/time.c.s
-
-CMakeFiles/SI_Client.dir/screen/field.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/screen/field.c.o: ../screen/field.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SI_Client.dir/screen/field.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/field.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/field.c
-
-CMakeFiles/SI_Client.dir/screen/field.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/screen/field.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/field.c > CMakeFiles/SI_Client.dir/screen/field.c.i
-
-CMakeFiles/SI_Client.dir/screen/field.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/field.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/field.c -o CMakeFiles/SI_Client.dir/screen/field.c.s
-
-CMakeFiles/SI_Client.dir/game/player.c.o: CMakeFiles/SI_Client.dir/flags.make
-CMakeFiles/SI_Client.dir/game/player.c.o: ../game/player.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SI_Client.dir/game/player.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/game/player.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/player.c
-
-CMakeFiles/SI_Client.dir/game/player.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/game/player.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/player.c > CMakeFiles/SI_Client.dir/game/player.c.i
-
-CMakeFiles/SI_Client.dir/game/player.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/game/player.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/player.c -o CMakeFiles/SI_Client.dir/game/player.c.s
-
 CMakeFiles/SI_Client.dir/game/enemy.c.o: CMakeFiles/SI_Client.dir/flags.make
 CMakeFiles/SI_Client.dir/game/enemy.c.o: ../game/enemy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SI_Client.dir/game/enemy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SI_Client.dir/game/enemy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/game/enemy.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/enemy.c
 
 CMakeFiles/SI_Client.dir/game/enemy.c.i: cmake_force
@@ -241,7 +137,7 @@ CMakeFiles/SI_Client.dir/game/enemy.c.s: cmake_force
 
 CMakeFiles/SI_Client.dir/game/gameobject.c.o: CMakeFiles/SI_Client.dir/flags.make
 CMakeFiles/SI_Client.dir/game/gameobject.c.o: ../game/gameobject.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SI_Client.dir/game/gameobject.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SI_Client.dir/game/gameobject.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/game/gameobject.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/gameobject.c
 
 CMakeFiles/SI_Client.dir/game/gameobject.c.i: cmake_force
@@ -252,9 +148,35 @@ CMakeFiles/SI_Client.dir/game/gameobject.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/game/gameobject.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/gameobject.c -o CMakeFiles/SI_Client.dir/game/gameobject.c.s
 
+CMakeFiles/SI_Client.dir/game/player.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/game/player.c.o: ../game/player.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SI_Client.dir/game/player.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/game/player.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/player.c
+
+CMakeFiles/SI_Client.dir/game/player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/game/player.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/player.c > CMakeFiles/SI_Client.dir/game/player.c.i
+
+CMakeFiles/SI_Client.dir/game/player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/game/player.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/game/player.c -o CMakeFiles/SI_Client.dir/game/player.c.s
+
+CMakeFiles/SI_Client.dir/main.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SI_Client.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/main.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/main.c
+
+CMakeFiles/SI_Client.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/main.c > CMakeFiles/SI_Client.dir/main.c.i
+
+CMakeFiles/SI_Client.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/main.c -o CMakeFiles/SI_Client.dir/main.c.s
+
 CMakeFiles/SI_Client.dir/screen/connect.c.o: CMakeFiles/SI_Client.dir/flags.make
 CMakeFiles/SI_Client.dir/screen/connect.c.o: ../screen/connect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SI_Client.dir/screen/connect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SI_Client.dir/screen/connect.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/connect.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/connect.c
 
 CMakeFiles/SI_Client.dir/screen/connect.c.i: cmake_force
@@ -265,9 +187,35 @@ CMakeFiles/SI_Client.dir/screen/connect.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/connect.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/connect.c -o CMakeFiles/SI_Client.dir/screen/connect.c.s
 
+CMakeFiles/SI_Client.dir/screen/field.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/screen/field.c.o: ../screen/field.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SI_Client.dir/screen/field.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/field.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/field.c
+
+CMakeFiles/SI_Client.dir/screen/field.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/screen/field.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/field.c > CMakeFiles/SI_Client.dir/screen/field.c.i
+
+CMakeFiles/SI_Client.dir/screen/field.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/field.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/field.c -o CMakeFiles/SI_Client.dir/screen/field.c.s
+
+CMakeFiles/SI_Client.dir/screen/game.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/screen/game.c.o: ../screen/game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SI_Client.dir/screen/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/game.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/game.c
+
+CMakeFiles/SI_Client.dir/screen/game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/screen/game.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/game.c > CMakeFiles/SI_Client.dir/screen/game.c.i
+
+CMakeFiles/SI_Client.dir/screen/game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/game.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/game.c -o CMakeFiles/SI_Client.dir/screen/game.c.s
+
 CMakeFiles/SI_Client.dir/screen/gameover.c.o: CMakeFiles/SI_Client.dir/flags.make
 CMakeFiles/SI_Client.dir/screen/gameover.c.o: ../screen/gameover.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SI_Client.dir/screen/gameover.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SI_Client.dir/screen/gameover.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/gameover.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/gameover.c
 
 CMakeFiles/SI_Client.dir/screen/gameover.c.i: cmake_force
@@ -278,46 +226,98 @@ CMakeFiles/SI_Client.dir/screen/gameover.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/gameover.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/gameover.c -o CMakeFiles/SI_Client.dir/screen/gameover.c.s
 
+CMakeFiles/SI_Client.dir/screen/main_menu.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/screen/main_menu.c.o: ../screen/main_menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SI_Client.dir/screen/main_menu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/screen/main_menu.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/main_menu.c
+
+CMakeFiles/SI_Client.dir/screen/main_menu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/screen/main_menu.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/main_menu.c > CMakeFiles/SI_Client.dir/screen/main_menu.c.i
+
+CMakeFiles/SI_Client.dir/screen/main_menu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/screen/main_menu.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/screen/main_menu.c -o CMakeFiles/SI_Client.dir/screen/main_menu.c.s
+
+CMakeFiles/SI_Client.dir/util/font.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/util/font.c.o: ../util/font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SI_Client.dir/util/font.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/util/font.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/font.c
+
+CMakeFiles/SI_Client.dir/util/font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/util/font.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/font.c > CMakeFiles/SI_Client.dir/util/font.c.i
+
+CMakeFiles/SI_Client.dir/util/font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/util/font.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/font.c -o CMakeFiles/SI_Client.dir/util/font.c.s
+
+CMakeFiles/SI_Client.dir/util/queue.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/util/queue.c.o: ../util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SI_Client.dir/util/queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/util/queue.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/queue.c
+
+CMakeFiles/SI_Client.dir/util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/util/queue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/queue.c > CMakeFiles/SI_Client.dir/util/queue.c.i
+
+CMakeFiles/SI_Client.dir/util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/util/queue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/queue.c -o CMakeFiles/SI_Client.dir/util/queue.c.s
+
+CMakeFiles/SI_Client.dir/util/time.c.o: CMakeFiles/SI_Client.dir/flags.make
+CMakeFiles/SI_Client.dir/util/time.c.o: ../util/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SI_Client.dir/util/time.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SI_Client.dir/util/time.c.o   -c /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/time.c
+
+CMakeFiles/SI_Client.dir/util/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SI_Client.dir/util/time.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/time.c > CMakeFiles/SI_Client.dir/util/time.c.i
+
+CMakeFiles/SI_Client.dir/util/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SI_Client.dir/util/time.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/quynn/Documents/NetworkProgramming-C/SI_Client/util/time.c -o CMakeFiles/SI_Client.dir/util/time.c.s
+
 # Object files for target SI_Client
 SI_Client_OBJECTS = \
-"CMakeFiles/SI_Client.dir/engine/engine.c.o" \
-"CMakeFiles/SI_Client.dir/util/queue.c.o" \
-"CMakeFiles/SI_Client.dir/main.c.o" \
-"CMakeFiles/SI_Client.dir/screen/main_menu.c.o" \
-"CMakeFiles/SI_Client.dir/engine/screen.c.o" \
-"CMakeFiles/SI_Client.dir/util/font.c.o" \
 "CMakeFiles/SI_Client.dir/engine/assets.c.o" \
-"CMakeFiles/SI_Client.dir/engine/renderer.c.o" \
+"CMakeFiles/SI_Client.dir/engine/engine.c.o" \
 "CMakeFiles/SI_Client.dir/engine/network.c.o" \
-"CMakeFiles/SI_Client.dir/screen/game.c.o" \
-"CMakeFiles/SI_Client.dir/util/time.c.o" \
-"CMakeFiles/SI_Client.dir/screen/field.c.o" \
-"CMakeFiles/SI_Client.dir/game/player.c.o" \
+"CMakeFiles/SI_Client.dir/engine/renderer.c.o" \
+"CMakeFiles/SI_Client.dir/engine/screen.c.o" \
 "CMakeFiles/SI_Client.dir/game/enemy.c.o" \
 "CMakeFiles/SI_Client.dir/game/gameobject.c.o" \
+"CMakeFiles/SI_Client.dir/game/player.c.o" \
+"CMakeFiles/SI_Client.dir/main.c.o" \
 "CMakeFiles/SI_Client.dir/screen/connect.c.o" \
-"CMakeFiles/SI_Client.dir/screen/gameover.c.o"
+"CMakeFiles/SI_Client.dir/screen/field.c.o" \
+"CMakeFiles/SI_Client.dir/screen/game.c.o" \
+"CMakeFiles/SI_Client.dir/screen/gameover.c.o" \
+"CMakeFiles/SI_Client.dir/screen/main_menu.c.o" \
+"CMakeFiles/SI_Client.dir/util/font.c.o" \
+"CMakeFiles/SI_Client.dir/util/queue.c.o" \
+"CMakeFiles/SI_Client.dir/util/time.c.o"
 
 # External object files for target SI_Client
 SI_Client_EXTERNAL_OBJECTS =
 
-SI_Client: CMakeFiles/SI_Client.dir/engine/engine.c.o
-SI_Client: CMakeFiles/SI_Client.dir/util/queue.c.o
-SI_Client: CMakeFiles/SI_Client.dir/main.c.o
-SI_Client: CMakeFiles/SI_Client.dir/screen/main_menu.c.o
-SI_Client: CMakeFiles/SI_Client.dir/engine/screen.c.o
-SI_Client: CMakeFiles/SI_Client.dir/util/font.c.o
 SI_Client: CMakeFiles/SI_Client.dir/engine/assets.c.o
-SI_Client: CMakeFiles/SI_Client.dir/engine/renderer.c.o
+SI_Client: CMakeFiles/SI_Client.dir/engine/engine.c.o
 SI_Client: CMakeFiles/SI_Client.dir/engine/network.c.o
-SI_Client: CMakeFiles/SI_Client.dir/screen/game.c.o
-SI_Client: CMakeFiles/SI_Client.dir/util/time.c.o
-SI_Client: CMakeFiles/SI_Client.dir/screen/field.c.o
-SI_Client: CMakeFiles/SI_Client.dir/game/player.c.o
+SI_Client: CMakeFiles/SI_Client.dir/engine/renderer.c.o
+SI_Client: CMakeFiles/SI_Client.dir/engine/screen.c.o
 SI_Client: CMakeFiles/SI_Client.dir/game/enemy.c.o
 SI_Client: CMakeFiles/SI_Client.dir/game/gameobject.c.o
+SI_Client: CMakeFiles/SI_Client.dir/game/player.c.o
+SI_Client: CMakeFiles/SI_Client.dir/main.c.o
 SI_Client: CMakeFiles/SI_Client.dir/screen/connect.c.o
+SI_Client: CMakeFiles/SI_Client.dir/screen/field.c.o
+SI_Client: CMakeFiles/SI_Client.dir/screen/game.c.o
 SI_Client: CMakeFiles/SI_Client.dir/screen/gameover.c.o
+SI_Client: CMakeFiles/SI_Client.dir/screen/main_menu.c.o
+SI_Client: CMakeFiles/SI_Client.dir/util/font.c.o
+SI_Client: CMakeFiles/SI_Client.dir/util/queue.c.o
+SI_Client: CMakeFiles/SI_Client.dir/util/time.c.o
 SI_Client: CMakeFiles/SI_Client.dir/build.make
 SI_Client: CMakeFiles/SI_Client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/quynn/Documents/NetworkProgramming-C/SI_Client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable SI_Client"

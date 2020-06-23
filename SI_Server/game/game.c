@@ -18,13 +18,14 @@ void game_packet_handle(int packet_id, char *packet_data, Field *f) {
     int player_id;
     switch (packet_id) {
         case 4: {
-            // PLAYER_MOVE (id player, direction)
+            // Player fire (player id, direction)
             int direction;
             sscanf(packet_data, "%i:%i", &player_id, &direction);
             player_move(&f->players[player_id], direction);
         }
             break;
         case 5: {
+            // Player fire (player id)
             sscanf(packet_data, "%i", &player_id);
             const int index = field_gameobjects_find_space(f);
             if (index != -1) {

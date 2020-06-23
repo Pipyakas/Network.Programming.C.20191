@@ -12,13 +12,20 @@ set(SOURCE_FILES
         game/gameobject.h
         game/player.c
         game/player.h
+        game/rectangle.c
+        game/rectangle.h
+        main.c
         network/net.c
         network/net.h
         network/packer.c
         network/packer.h
         network/packet.c
         network/packet.h
-        main.c util/time.c util/time.h util/queue.c util/queue.h game/rectangle.c game/rectangle.h)
+        util/queue.c
+        util/queue.h
+        util/time.c
+        util/time.h
+        )
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")
 add_executable(SI_Server ${SOURCE_FILES})
 add_custom_target(valgrind /usr/bin/valgrind ${PROJECT_BINARY_DIR}/SI_Server)

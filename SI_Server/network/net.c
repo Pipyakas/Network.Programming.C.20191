@@ -107,7 +107,7 @@ void net_game_thread(net_client_descr_t *clients) {
         packer_pack_field(field_buffer, net_field);
         Packet *p = (Packet *) packet_create(3, strlen(field_buffer), field_buffer);
         for (int i = 0; i < MAX_CONNECTIONS; i++) queue_push(clients[i].send, p);
-        usleep(16666);
+        usleep(33333);
     }
 }
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-        "CMakeFiles/valgrind"
-        )
+  "CMakeFiles/valgrind"
+)
 
 # Per-language clean rules from dependency scanning.
-foreach (lang)
-    include(CMakeFiles/valgrind.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach ()
+foreach(lang )
+  include(CMakeFiles/valgrind.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

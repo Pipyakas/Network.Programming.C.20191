@@ -3,7 +3,7 @@
 
 #include "engine/engine.h"
 
-#define ENGINE_FPS 30
+#define ENGINE_FPS 60
 int fps_timer;
 
 int main(int argc, char *args[]) {

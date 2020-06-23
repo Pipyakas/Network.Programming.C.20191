@@ -16,18 +16,6 @@ enemy.h
 gameobject.h
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/gameobject.h
 
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/game.c
-game.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/game.h
-../util/time.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/util/time.h
-rectangle.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/rectangle.h
-stdlib.h
--
-stdio.h
--
-
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/game.h
 player.h
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/player.h
@@ -43,24 +31,6 @@ player.h
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/player.h
 
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/player.h
-
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/rectangle.h
-enemy.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/enemy.h
-player.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/player.h
-gameobject.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/game/gameobject.h
-
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/main.c
-stdio.h
--
-stdlib.h
--
-time.h
--
-network/net.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/network/net.h
 
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/network/net.c
 stdio.h
@@ -107,16 +77,6 @@ stdint.h
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/gameobject.h
 ../game/field.h
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/game/field.h
-
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/network/packet.c
-packet.h
-/home/quynn/Documents/NetworkProgramming-C/SI_Server/network/packet.h
-string.h
--
-stdlib.h
--
-stdio.h
--
 
 /home/quynn/Documents/NetworkProgramming-C/SI_Server/network/packet.h
 stdint.h
